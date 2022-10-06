@@ -18,6 +18,7 @@ RICE_MAINTAINER := anandhanajay
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
 # Boot animation
+SUSHI_BOOTANIMATION := 720
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
